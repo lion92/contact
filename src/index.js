@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Welcome from '../src/helloWorld'
+import Horloge from '../src/Horloge'
 ReactDOM.render(
+  
   <React.StrictMode>
-    <App />
+    <Horloge/>
+    <Welcome/>
+    <App nom=" kriss"/>
+    
+
   </React.StrictMode>,
   document.getElementById('root')
 );
