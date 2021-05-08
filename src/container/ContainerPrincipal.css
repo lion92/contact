@@ -1,0 +1,15 @@
+#Principal{
+    display:grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    
+}
+.titre{
+    padding: 10px;
+    margin: 5px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    justify-self: left;
+    border-radius: 25%;
+    border: solid 2em  gray;
+    
+}
