@@ -6,12 +6,10 @@ import reportWebVitals from './reportWebVitals';
 import Welcome from '../src/helloWorld'
 import Horloge from '../src/Horloge'
 import ContainerCV from'../src/container/ContainerCV'
+import Photos from '../src/Photo'
 ReactDOM.render(
   
   <React.StrictMode>
-    <Horloge/>
-    <Welcome/>
-    <App nom=" kriss"/>
     <ContainerCV/>
 
   </React.StrictMode>,

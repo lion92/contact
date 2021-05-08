@@ -3,8 +3,8 @@ import './helloWorld.css'
 const Welcome =(props)=>{
     {
       return <>
-      <div class="titre">
-      <h1>Bonjour</h1>
+      <div className="titre">
+      <h1 className="dev">Développeur FullStack</h1>
       </div>
       </>;
     }
