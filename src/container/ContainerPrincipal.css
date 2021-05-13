@@ -1,31 +1,52 @@
 #Principal{
+  height: 70vh;
+  padding: 30px;
+  margin: 30px;
     display:grid;
-    grid-template-columns: 2fr 4fr ;
-    grid-template-rows: 7fr;
+    grid-template-columns: 1fr 2fr 4fr ;
+    grid-template-rows: repeat(6, 1fr);
+ 
+  }
+.niveauJAVA{
+  width: 70%;
+  border-bottom: solid 10px blue ;
+}
+.niveauJAVASCRIPT{
+  width: 50%;
+  border-bottom: solid 10px blue ;
+}
+div{ margin: 5px;
+padding: 5px;}
+.niveauHTML{
+  width: 80%;
+  border-bottom: solid 10px blue ;
+}
+.niveauCSS{
+  width: 60%;
+  border-bottom: solid 10px blue ;
 }
 .titre{
     margin-top: 50px;
     padding: 10px;
     
-    grid-column-start: 2;
+    grid-column-start: 3;
     
-    justify-self: center;
+    grid-row-start:  1;
     text-align: center;
     
     
 }
-.divPhoto{
-    margin-top: 30px;
-  columns: 1;
-  justify-self: center;
-   
-}
+
+
+
 .SS{
-    margin-top: 30px;
+  box-shadow: 10px 10px 5px grey;
+    background-color: white;
+    border-top:1px solid black;
     width:70%;
-    border:1px solid black;
-    grid-column-start:  span 2;
-    grid-row-start: 6;
+    border-bottom:1px solid black;
+    grid-column-start:  span 3;
+    
     justify-self:center;
     
   }
@@ -33,3 +54,66 @@
     
       border: 1px solid black;
   }
+  .SS2{
+    box-shadow: 10px 10px 5px grey;
+    background-color: white;
+    width:70%;
+    border-bottom:1px solid black;
+    grid-column-start:  span 3;
+   
+    justify-self:center;
+    
+  }
+  .SS3{
+    box-shadow: 10px 10px 5px grey;
+    background-color: white;
+    width:70%;
+    border-bottom:1px solid black;
+    grid-column-start:  span 3;
+   
+    justify-self:center;
+  }
+  
+  .divPhoto{
+    grid-column-start:  1;
+    grid-row-start:  1;
+  }
+  .contact{
+    grid-column-start:  2;
+    grid-row-start:  1;
+    
+  }
+ body{
+
+  background: rgb(173, 191, 214)
+
+  }
+  .ContactG{
+    float: left;
+  }
+  .maPhoto{
+    float: left;
+  }
+  .dev{
+    float: left;
+  }
+  
+body {
+  font-size: 20px;
+}
+.img_exp{
+  width: 100px;
+}
+.div_exp,.IMIE, .W, .UN{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.Align_form{width: 50px;}
+
+body {
+  height: 100%;
+  border: 5px dashed black;
+}
