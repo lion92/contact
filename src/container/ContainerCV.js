@@ -11,7 +11,11 @@ class ContainerCV extends Component {
   render() {
     return (
       <>
-        <div id="Principal">
+     
+
+     
+        <div id="Principal"> 
+        <div className="bandeTitre"> </div>
           <Photos />
           <Contact />
           <Welcome />

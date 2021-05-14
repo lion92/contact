@@ -1,15 +1,22 @@
 #Principal{
-  height: 70vh;
+
   padding: 30px;
-  margin: 30px;
+
     display:grid;
-    grid-template-columns: 1fr 2fr 4fr ;
-    grid-template-rows: repeat(6, 1fr);
+   
  
+  }
+  .bandeTitre{
+    border: solid 5px black;
+    display: block;
+    position: absolute;
+    height: 1400px;
+    background-color: white
   }
 .niveauJAVA{
   width: 70%;
   border-bottom: solid 10px blue ;
+  
 }
 .niveauJAVASCRIPT{
   width: 50%;
@@ -28,7 +35,8 @@ padding: 5px;}
 .titre{
     margin-top: 50px;
     padding: 10px;
-    
+    box-shadow: 10px 10px 5px grey;
+    background-color: white;
     grid-column-start: 3;
     
     grid-row-start:  1;
@@ -77,15 +85,18 @@ padding: 5px;}
   .divPhoto{
     grid-column-start:  1;
     grid-row-start:  1;
+   
+    background-color: white;
   }
   .contact{
     grid-column-start:  2;
     grid-row-start:  1;
     
+    background-color: white;
   }
  body{
-
-  background: rgb(173, 191, 214)
+  
+  background: rgb(231, 215, 215)
 
   }
   .ContactG{
@@ -115,5 +126,6 @@ body {
 
 body {
   height: 100%;
-  border: 5px dashed black;
+
+  
 }
