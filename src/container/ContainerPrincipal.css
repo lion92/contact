@@ -33,7 +33,7 @@ div {
 
 .SS {
   box-shadow: 10px 10px 5px grey;
-  background-color: white;
+  background-color:lightgrey;
   border-top: 1px solid black;
   width: 100%;
   border-bottom: 1px solid black;
@@ -46,7 +46,7 @@ div {
 }
 .SS2 {
   box-shadow: 10px 10px 5px grey;
-  background-color: white;
+  background-color: rgb(94, 194, 233);
   width: 100%;
   border-bottom: 1px solid black;
 
@@ -54,8 +54,8 @@ div {
   justify-self: center;
 }
 .SS3 {
-  box-shadow: 10px 10px 5px grey;
-  background-color: white;
+ 
+  background-color: lightgrey;
   width: 100%;
   border-bottom: 1px solid black;
  
@@ -73,7 +73,7 @@ div {
 
 }
 body {
-  background: rgb(231, 215, 215);
+  background:black
 }
 .ContactG {
 
@@ -114,7 +114,7 @@ body {
   justify-content: space-between;
   
 
-  background-color: white;
+  background-color: rgb(86, 205, 252);
   justify-self: center;
 
 }
@@ -124,7 +124,12 @@ body {
 }
 a{border-bottom: black 2px solid;}
 #persoGraph{
-  position: relative;
-  height: 500px;
-width:500px;
-left:30%}
+
+width: 500px;
+height: 500px;
+margin: auto;
+}
+#perso{display: flex;
+background-color: rgb(197, 215, 233);
+box-shadow: 10px 10px 5px grey;
+width: 100%;}

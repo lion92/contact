@@ -12,8 +12,8 @@ class ContainerCV extends Component {
   render() {
     return (
       <>
-      <div>
-        <div></div>
+  
+        
 
       
         <div id="Principal">
@@ -26,11 +26,13 @@ class ContainerCV extends Component {
           
           <SousSection />
           <Soussection2 />
+          <div id="perso"> 
           <SousSectionCompetence></SousSectionCompetence>
-          <Personnalite></Personnalite>
+          <Personnalite></Personnalite></div>
+         
         </div>
 
-        </div>
+      
       </>
     );
   }

@@ -21,10 +21,10 @@ const Personnalite = (props) => {
     backgroundColor: 'rgba(255, 99, 132, 0.2)',
     borderColor: 'rgb(255, 99, 132)',
     pointBackgroundColor: 'rgb(255, 99, 132)',
-    pointBorderColor: '#fff',
-    pointHoverBackgroundColor: '#fff',
+    pointBorderColor: 'white',
+    pointHoverBackgroundColor: 'white',
     pointHoverBorderColor: 'rgb(255, 99, 132)',
-    pointHitRadius:0
+    pointHitRadius:10
   }]}}></Radar>
         </div>
       </>
