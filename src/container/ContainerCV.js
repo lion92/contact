@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./ContainerPrincipal.css";
-import Welcome from "../../src/helloWorld";
+import Welcome from "../titre";
 import img from "../Photo";
 import Photos from "../Photo";
 import SousSection from "../SousSection";
@@ -11,17 +11,21 @@ class ContainerCV extends Component {
   render() {
     return (
       <>
-     
+      <div>
+        <div></div>
 
-     
-        <div id="Principal"> 
-        <div className="bandeTitre"> </div>
-          <Photos />
+      
+        <div id="Principal">
+          <div id="header">
+            <Photos />
           <Contact />
           <Welcome />
+          </div>
+          
           <SousSection />
           <Soussection2 />
           <SousSectionCompetence></SousSectionCompetence>
+        </div>
         </div>
       </>
     );

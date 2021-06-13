@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Welcome from '../src/helloWorld'
+import Welcome from '../src/titre'
 import Horloge from '../src/Horloge'
 import ContainerCV from'../src/container/ContainerCV'
 import Photos from '../src/Photo'

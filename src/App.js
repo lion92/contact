@@ -1,12 +1,13 @@
+import "./App.css";
+import React, { Component } from "react";
 
-import './App.css';
-import React, { Component } from 'react';
-
-class App extends Component{
+class App extends Component {
   render() {
-    return <>
-    <h1>Bonjour{this.props.nom}</h1>
-    </>;
+    return (
+      <>
+        <h1>Bonjour{this.props.nom}</h1>
+      </>
+    );
   }
 }
 
@@ -19,4 +20,4 @@ function App(props) {
 }
 export default App
 */
-export default App
+export default App;
