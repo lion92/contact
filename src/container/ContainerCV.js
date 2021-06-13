@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import "./ContainerPrincipal.css";
-import Welcome from "../titre";
+import Titre from "../titre";
 import img from "../Photo";
 import Photos from "../Photo";
 import SousSection from "../SousSection";
 import Soussection2 from "../Soussection2";
 import SousSectionCompetence from "../SectionCompetence";
 import Contact from "../Contact";
+import Personnalite from "../Personnalite";
 class ContainerCV extends Component {
   render() {
     return (
@@ -18,14 +19,17 @@ class ContainerCV extends Component {
         <div id="Principal">
           <div id="header">
             <Photos />
+            <Titre />
           <Contact />
-          <Welcome />
+          
           </div>
           
           <SousSection />
           <Soussection2 />
           <SousSectionCompetence></SousSectionCompetence>
+          <Personnalite></Personnalite>
         </div>
+
         </div>
       </>
     );

@@ -8,7 +8,7 @@ const Contact =(props)=>{
         <p>Kriss CLOTILDE</p>
         <p>30 ans</p>
         <p>Antony</p>
-        <p>kriss.clotilde@gmail.com</p>
+        <a>kriss.clotilde@gmail.com</a>
         </div>
       </div>
       </>;

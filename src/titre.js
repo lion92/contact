@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './titre.css'
-const Welcome =(props)=>{
+const Titre =(props)=>{
     {
       return <>
       <div className="titre">
@@ -9,4 +9,4 @@ const Welcome =(props)=>{
       </>;
     }
   }
-  export default Welcome
+  export default Titre
